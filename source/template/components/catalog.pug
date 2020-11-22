@@ -1,0 +1,538 @@
+header.header
+    .header__top
+        .wrapper
+            .header__menu
+                a(href="#") Новости
+                a(href="#") Вопрос-ответ
+                a(href="#") О компании
+            .header__phone
+                a(href="tel:+73830000000") +7 (383) 000-00-00
+                a(href="tel:+73830000000") +7 (383) 000-00-00
+    .header__main.wrapper
+        a(href="./").logo
+            img(src="./images/icon/logo.svg", alt="logo")
+        .header__form
+            p Интернет-продажи сантехники и отделочных материалов
+            form(action="#")
+                input(type="text", name="serch")
+                input(type="submit", value="")
+        a(href="#").basket
+            img(src="./images/icon/basket.svg", alt="basket")
+            span 0
+nav.menu
+    .wrapper
+        ul
+            li.has-sub__1
+                a(href="#") Каталог
+                ul.sub-menu__1
+                    li
+                        a(href="#") Распродажа
+                    li.has-sub__2
+                        a(href="#") Сантехника
+                        ul.sub-menu__2
+                            li
+                                a(href="#") Подкатегория
+                            li.has-sub__3
+                                a(href="#") Подкатегория
+                                ul.sub-menu__3
+                                    li
+                                        a(href="#") Подкатегория
+                                    li
+                                        a(href="#") Подкатегория
+                                    li
+                                        a(href="#") Подкатегория
+                                    li
+                                        a(href="#") Подкатегория с длинным названием в две строки
+                                    li
+                                        a(href="#") Подкатегория
+                            li
+                                a(href="#") Подкатегория
+                            li
+                                a(href="#") Подкатегория
+                            li
+                                a(href="#") Подкатегория
+                            li
+                                a(href="#") Подкатегория
+                            li
+                                a(href="#") Подкатегория
+                            li
+                                a(href="#") Подкатегория
+                    li
+                        a(href="#") Мебель для ванной комнаты
+                    li
+                        a(href="#") Напольные покрытия
+                    li
+                        a(href="#") Двери
+                    li
+                        a(href="#") Дверная фурнитура
+                    li
+                        a(href="#") Кухонные фартуки
+                    li
+                        a(href="#") Настенные панели
+                    li
+                        a(href="#") Отопление
+                    li
+                        a(href="#") Водонагреватели
+                    li
+                        a(href="#") Инструменты
+                    li
+                        a(href="#") Свет
+                    li
+                        a(href="#") Керамическая плитка и кераморанит
+                    li
+                        a(href="#") Сайдинг и фасадные панели
+                    li
+                        a(href="#") Полотенцесушители
+                    li  
+                        a(href="#") Обои
+                    li
+                        a(href="#") Комплектаторам
+            li
+                a(href="#") Доставка и оплата
+            li
+                a(href="#") Услуги
+            li
+                a(href="#") Акции
+            li
+                a(href="#") Контакты
+            li
+                a(href="#") Дизайнерам
+.content.wrapper
+    aside.left
+        .filter
+            h3 Параметры
+            .filter__block
+                .filter__title
+                    p Цена
+                    img(src="./images/icon/filter.svg", alt="filter")
+                .filter__chose
+                    .range-widget.js-range(data-current-min-value="3600", data-current-max-value="320000", data-min-value="3300", data-max-value="523475")
+                        .range-widget__slider
+                        .range-widget__row
+                            .range-widget__col
+                                .range-widget__input-wrapper.range-widget__input-wrapper--type_simple
+                                    input(type="text", value="3300", name="arrFilter_P1_MIN").range-widget-min.range-widget__input
+                            .range-widget__col
+                                .range-widget__input-wrapper.range-widget__input-wrapper--type_simple
+                                    input(type="text", value="523475", name="arrFilter_P1_MAX").range-widget-max.range-widget__input
+            .filter__block
+                .filter__title
+                    p Размеры
+                    img(src="./images/icon/filter.svg", alt="filter")
+                .filter__chose
+                    .range-widget.js-range(data-current-min-value="3600", data-current-max-value="320000", data-min-value="3300", data-max-value="523475")
+                        p Высота, мм
+                        .filter__categ.range-widget__row
+                            .range-widget__col
+                                .range-widget__input-wrapper.range-widget__input-wrapper--type_simple
+                                    input(type="text", value="3300", name="arrFilter_P1_MIN").range-widget-min.range-widget__input
+                            .range-widget__col
+                                .range-widget__input-wrapper.range-widget__input-wrapper--type_simple
+                                    input(type="text", value="523475", name="arrFilter_P1_MAX").range-widget-max.range-widget__input
+                        .range-widget__slider
+                    .range-widget.js-range(data-current-min-value="3600", data-current-max-value="320000", data-min-value="3300", data-max-value="523475")
+                        p Глубина, мм
+                        .filter__categ.range-widget__row
+                            .range-widget__col
+                                .range-widget__input-wrapper.range-widget__input-wrapper--type_simple
+                                    input(type="text", value="3300", name="arrFilter_P1_MIN").range-widget-min.range-widget__input
+                            .range-widget__col
+                                .range-widget__input-wrapper.range-widget__input-wrapper--type_simple
+                                    input(type="text", value="523475", name="arrFilter_P1_MAX").range-widget-max.range-widget__input
+                        .range-widget__slider
+                    .range-widget.js-range(data-current-min-value="3600", data-current-max-value="320000", data-min-value="3300", data-max-value="523475")
+                        p Длина, мм
+                        .filter__categ.range-widget__row
+                            .range-widget__col
+                                .range-widget__input-wrapper.range-widget__input-wrapper--type_simple
+                                    input(type="text", value="3300", name="arrFilter_P1_MIN").range-widget-min.range-widget__input
+                            .range-widget__col
+                                .range-widget__input-wrapper.range-widget__input-wrapper--type_simple
+                                    input(type="text", value="523475", name="arrFilter_P1_MAX").range-widget-max.range-widget__input
+                        .range-widget__slider
+                    .range-widget.js-range(data-current-min-value="3600", data-current-max-value="320000", data-min-value="3300", data-max-value="523475")
+                        p Ширина, мм
+                        .filter__categ.range-widget__row
+                            .range-widget__col
+                                .range-widget__input-wrapper.range-widget__input-wrapper--type_simple
+                                    input(type="text", value="3300", name="arrFilter_P1_MIN").range-widget-min.range-widget__input
+                            .range-widget__col
+                                .range-widget__input-wrapper.range-widget__input-wrapper--type_simple
+                                    input(type="text", value="523475", name="arrFilter_P1_MAX").range-widget-max.range-widget__input
+                        .range-widget__slider
+                    .range-widget.js-range(data-current-min-value="3600", data-current-max-value="320000", data-min-value="3300", data-max-value="523475")
+                        p Объем, л
+                        .filter__categ.range-widget__row
+                            .range-widget__col
+                                .range-widget__input-wrapper.range-widget__input-wrapper--type_simple
+                                    input(type="text", value="3300", name="arrFilter_P1_MIN").range-widget-min.range-widget__input
+                            .range-widget__col
+                                .range-widget__input-wrapper.range-widget__input-wrapper--type_simple
+                                    input(type="text", value="523475", name="arrFilter_P1_MAX").range-widget-max.range-widget__input
+                        .range-widget__slider
+            .filter__block
+                .filter__title
+                    p Форма
+                    img(src="./images/icon/filter.svg", alt="filter")
+                .filter__chose
+                    input(type="checkbox", name="form")#form-1
+                    label(for="form-1") Прямоугольная 
+                        span (285)
+                    input(type="checkbox", name="form")#form-2
+                    label(for="form-2") Уголовая 
+                        span (7)
+                    input(type="checkbox", name="form")#form-3
+                    label(for="form-3") Ассиметричная 
+                        span (2)
+                    input(type="checkbox", name="form")#form-4
+                    label(for="form-4") Овальная 
+                        span (19)
+                    input(type="checkbox", name="form")#form-5
+                    label(for="form-5") Круглая 
+                        span (2)
+                    input(type="checkbox", name="form")#form-6
+                    label(for="form-6") Шестиугольная 
+                        span (2)
+            .filter__block
+                .filter__title
+                    p Материал ванны
+                    img(src="./images/icon/filter.svg", alt="filter")
+                .filter__chose
+                    input(type="checkbox", name="material")#material-1
+                    label(for="material-1") Акрил 
+                        span (230)
+                    input(type="checkbox", name="material")#material-2
+                    label(for="material-2") Сталь 
+                        span (27)
+                    input(type="checkbox", name="material")#material-3
+                    label(for="material-3") Чугун 
+                        span (83)
+    main.info
+        .breadcrumbs.wrapper
+            a(href="./") Главная
+            img(src="./images/icon/breadcrumbs.svg", alt="breadcrumbs")
+            a(href="#") Каталог
+            img(src="./images/icon/breadcrumbs.svg", alt="breadcrumbs")
+            a(href="#").active__breadcrumbs Сантехника
+        .catalog
+            h2 Сантехника
+            .catalog__btn
+                a(href="#") Бренд
+                a(href="#") Название бренда
+                a(href="#") Длинное название бренда
+                a(href="#") Длинное название бренда
+                a(href="#") Название бренда
+                a(href="#") Длинное название бренда
+                a(href="#") Бренд
+                a(href="#") Бренд
+                a(href="#") Бренд
+            .catalog__range
+                span Сортировка
+                a(href="#") Название
+                a(href="#") Цена
+            .catalog__wrap
+                .card
+                    .card__image
+                        img(src="./images/decor/card.jpg", alt="card")
+                    .card__text
+                        a(href="#") Ванна 150*75, White Wave, стальная, Classic
+                        .card__price
+                            span 4 500 руб./шт
+                        .card__btn
+                            .card__number
+                                span.card__minus
+                                    img(src="./images/icon/minus.svg", alt="minus")
+                                input(type="text", value="0")
+                                span.card__plus
+                                    img(src="./images/icon/plus.svg", alt="plus")
+                            a(href="#") В корзину
+                .card
+                    .card__image
+                        img(src="./images/decor/card.jpg", alt="card")
+                    .card__text
+                        a(href="#") Ванна 150*75, White Wave, стальная, Classic
+                        .card__price
+                            span 4 500 руб./шт
+                        .card__btn
+                            .card__number
+                                span.card__minus
+                                    img(src="./images/icon/minus.svg", alt="minus")
+                                input(type="text", value="0")
+                                span.card__plus
+                                    img(src="./images/icon/plus.svg", alt="plus")
+                            a(href="#") В корзину
+                .card
+                    .card__image
+                        img(src="./images/decor/card.jpg", alt="card")
+                    .card__text
+                        a(href="#") Ванна 150*75, White Wave, стальная, Classic
+                        .card__price
+                            span 4 500 руб./шт
+                        .card__btn
+                            .card__number
+                                span.card__minus
+                                    img(src="./images/icon/minus.svg", alt="minus")
+                                input(type="text", value="0")
+                                span.card__plus
+                                    img(src="./images/icon/plus.svg", alt="plus")
+                            a(href="#") В корзину
+                .card
+                    .card__image
+                        img(src="./images/decor/card.jpg", alt="card")
+                    .card__text
+                        a(href="#") Ванна 150*75, White Wave, стальная, Classic
+                        .card__price
+                            span 4 500 руб./шт
+                        .card__btn
+                            .card__number
+                                span.card__minus
+                                    img(src="./images/icon/minus.svg", alt="minus")
+                                input(type="text", value="0")
+                                span.card__plus
+                                    img(src="./images/icon/plus.svg", alt="plus")
+                            a(href="#") В корзину
+                .card
+                    .card__image
+                        img(src="./images/decor/card.jpg", alt="card")
+                    .card__text
+                        a(href="#") Ванна 150*75, White Wave, стальная, Classic
+                        .card__price
+                            span 4 500 руб./шт
+                        .card__btn
+                            .card__number
+                                span.card__minus
+                                    img(src="./images/icon/minus.svg", alt="minus")
+                                input(type="text", value="0")
+                                span.card__plus
+                                    img(src="./images/icon/plus.svg", alt="plus")
+                            a(href="#") В корзину
+                .card
+                    .card__image
+                        img(src="./images/decor/card.jpg", alt="card")
+                    .card__text
+                        a(href="#") Ванна 150*75, White Wave, стальная, Classic
+                        .card__price
+                            span 4 500 руб./шт
+                        .card__btn
+                            .card__number
+                                span.card__minus
+                                    img(src="./images/icon/minus.svg", alt="minus")
+                                input(type="text", value="0")
+                                span.card__plus
+                                    img(src="./images/icon/plus.svg", alt="plus")
+                            a(href="#") В корзину
+                .card
+                    .card__image
+                        img(src="./images/decor/card.jpg", alt="card")
+                    .card__text
+                        a(href="#") Ванна 150*75, White Wave, стальная, Classic
+                        .card__price
+                            span 4 500 руб./шт
+                        .card__btn
+                            .card__number
+                                span.card__minus
+                                    img(src="./images/icon/minus.svg", alt="minus")
+                                input(type="text", value="0")
+                                span.card__plus
+                                    img(src="./images/icon/plus.svg", alt="plus")
+                            a(href="#") В корзину
+                .card
+                    .card__image
+                        img(src="./images/decor/card.jpg", alt="card")
+                    .card__text
+                        a(href="#") Ванна 150*75, White Wave, стальная, Classic
+                        .card__price
+                            span 4 500 руб./шт
+                        .card__btn
+                            .card__number
+                                span.card__minus
+                                    img(src="./images/icon/minus.svg", alt="minus")
+                                input(type="text", value="0")
+                                span.card__plus
+                                    img(src="./images/icon/plus.svg", alt="plus")
+                            a(href="#") В корзину
+                .card
+                    .card__image
+                        img(src="./images/decor/card.jpg", alt="card")
+                    .card__text
+                        a(href="#") Ванна 150*75, White Wave, стальная, Classic
+                        .card__price
+                            span 4 500 руб./шт
+                        .card__btn
+                            .card__number
+                                span.card__minus
+                                    img(src="./images/icon/minus.svg", alt="minus")
+                                input(type="text", value="0")
+                                span.card__plus
+                                    img(src="./images/icon/plus.svg", alt="plus")
+                            a(href="#") В корзину
+                .card
+                    .card__image
+                        img(src="./images/decor/card.jpg", alt="card")
+                    .card__text
+                        a(href="#") Ванна 150*75, White Wave, стальная, Classic
+                        .card__price
+                            span 4 500 руб./шт
+                        .card__btn
+                            .card__number
+                                span.card__minus
+                                    img(src="./images/icon/minus.svg", alt="minus")
+                                input(type="text", value="0")
+                                span.card__plus
+                                    img(src="./images/icon/plus.svg", alt="plus")
+                            a(href="#") В корзину
+                .card
+                    .card__image
+                        img(src="./images/decor/card.jpg", alt="card")
+                    .card__text
+                        a(href="#") Ванна 150*75, White Wave, стальная, Classic
+                        .card__price
+                            span 4 500 руб./шт
+                        .card__btn
+                            .card__number
+                                span.card__minus
+                                    img(src="./images/icon/minus.svg", alt="minus")
+                                input(type="text", value="0")
+                                span.card__plus
+                                    img(src="./images/icon/plus.svg", alt="plus")
+                            a(href="#") В корзину
+                .card
+                    .card__image
+                        img(src="./images/decor/card.jpg", alt="card")
+                    .card__text
+                        a(href="#") Ванна 150*75, White Wave, стальная, Classic
+                        .card__price
+                            span 4 500 руб./шт
+                        .card__btn
+                            .card__number
+                                span.card__minus
+                                    img(src="./images/icon/minus.svg", alt="minus")
+                                input(type="text", value="0")
+                                span.card__plus
+                                    img(src="./images/icon/plus.svg", alt="plus")
+                            a(href="#") В корзину
+                .card
+                    .card__image
+                        img(src="./images/decor/card.jpg", alt="card")
+                    .card__text
+                        a(href="#") Ванна 150*75, White Wave, стальная, Classic
+                        .card__price
+                            span 4 500 руб./шт
+                        .card__btn
+                            .card__number
+                                span.card__minus
+                                    img(src="./images/icon/minus.svg", alt="minus")
+                                input(type="text", value="0")
+                                span.card__plus
+                                    img(src="./images/icon/plus.svg", alt="plus")
+                            a(href="#") В корзину
+                .card
+                    .card__image
+                        img(src="./images/decor/card.jpg", alt="card")
+                    .card__text
+                        a(href="#") Ванна 150*75, White Wave, стальная, Classic
+                        .card__price
+                            span 4 500 руб./шт
+                        .card__btn
+                            .card__number
+                                span.card__minus
+                                    img(src="./images/icon/minus.svg", alt="minus")
+                                input(type="text", value="0")
+                                span.card__plus
+                                    img(src="./images/icon/plus.svg", alt="plus")
+                            a(href="#") В корзину
+                .card
+                    .card__image
+                        img(src="./images/decor/card.jpg", alt="card")
+                    .card__text
+                        a(href="#") Ванна 150*75, White Wave, стальная, Classic
+                        .card__price
+                            span 4 500 руб./шт
+                        .card__btn
+                            .card__number
+                                span.card__minus
+                                    img(src="./images/icon/minus.svg", alt="minus")
+                                input(type="text", value="0")
+                                span.card__plus
+                                    img(src="./images/icon/plus.svg", alt="plus")
+                            a(href="#") В корзину
+                .card
+                    .card__image
+                        img(src="./images/decor/card.jpg", alt="card")
+                    .card__text
+                        a(href="#") Ванна 150*75, White Wave, стальная, Classic
+                        .card__price
+                            span 4 500 руб./шт
+                        .card__btn
+                            .card__number
+                                span.card__minus
+                                    img(src="./images/icon/minus.svg", alt="minus")
+                                input(type="text", value="0")
+                                span.card__plus
+                                    img(src="./images/icon/plus.svg", alt="plus")
+                            a(href="#") В корзину
+                .card
+                    .card__image
+                        img(src="./images/decor/card.jpg", alt="card")
+                    .card__text
+                        a(href="#") Ванна 150*75, White Wave, стальная, Classic
+                        .card__price
+                            span 4 500 руб./шт
+                        .card__btn
+                            .card__number
+                                span.card__minus
+                                    img(src="./images/icon/minus.svg", alt="minus")
+                                input(type="text", value="0")
+                                span.card__plus
+                                    img(src="./images/icon/plus.svg", alt="plus")
+                            a(href="#") В корзину
+                .card
+                    .card__image
+                        img(src="./images/decor/card.jpg", alt="card")
+                    .card__text
+                        a(href="#") Ванна 150*75, White Wave, стальная, Classic
+                        .card__price
+                            span 4 500 руб./шт
+                        .card__btn
+                            .card__number
+                                span.card__minus
+                                    img(src="./images/icon/minus.svg", alt="minus")
+                                input(type="text", value="0")
+                                span.card__plus
+                                    img(src="./images/icon/plus.svg", alt="plus")
+                            a(href="#") В корзину
+            .pages
+                span.pages__active 1
+                span 2
+                span 3
+                span.pages__more ...
+                span 10
+footer.footer
+    .wrapper
+        .footer__top
+            a(href="./").logo
+                img(src="./images/icon/logo-footer.svg", alt="logo")
+            .footer__adress
+                img(src="./images/icon/map.svg", alt="map")
+                p г. Новосибирск <br> ул. Зорге, 334, этаж 2, каб. 3
+            .footer__mail
+                img(src="./images/icon/mail.svg", alt="mail")
+                a(href="mailto:bp_54@mail.ru") bp_54@mail.ru
+            .footer__phone
+                img(src="./images/icon/phone.svg", alt="phone")
+                div
+                    a(href="tel:+73830000000") +7 (383) 000-00-00
+                    a(href="tel:+73830000000") +7 (383) 000-00-00
+        .footer__bottom
+            .footer__copyright
+                p © 2020 bp54.ru
+                    a(href="#") Политика конфиденциальности
+                p 
+                    a(href="mailto:bp_54@mail.ru") bp_54@mail.ru 
+                    | — электронная почта для обращений с вопросом о своих персональных данных, в том числе об их удалении.        
+            .footer__links
+                .footer__text
+                    a(href="#") Создание сайтов
+                    a(href="#") Продвижение сайтов
+                a(href="#")
+                    img(src="./images/icon/kontur.svg", alt="kontur")
